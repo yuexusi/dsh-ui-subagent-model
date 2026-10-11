@@ -1,0 +1,9 @@
+# dsh-ui-subagent-model: 子智能体统一模型路由（持久化组合条目）。
+- insert:
+    - id: subagent-model
+      name: dsh-ui-subagent-model
+      inject:
+        - webServer
+        - connection
+        - systemPrompt
+        - settings
